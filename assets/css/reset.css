@@ -1,0 +1,31 @@
+@font-face {
+  font-family: open_sans;
+  src: url('../fonts/opensans-regular-webfont.woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-size: 100%;
+  font-family: open_sans, sans-serif;
+  font-weight: normal;
+
+  box-sizing: border-box;
+
+  border: none;
+
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
