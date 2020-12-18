@@ -1,0 +1,243 @@
+/* PRÉ ESTILIZAÇÕES */
+h2 {
+  /* 24 pixels */
+  font-size: 1.5em;
+
+  color: #333;
+}
+
+p {
+  /* 16 pixels */
+  font-size: 1em;
+
+  color: #777;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  
+  width: 100%;
+
+  /* 50px top e bottom, 8% left e right */
+  padding: 50px 8%;
+
+  background-color: #13c7ae;
+}
+
+.logo a {
+  display: flex;
+
+  width: 221px;
+  height: 48px;
+
+  background: url('/assets/img/logo.png') no-repeat;
+  /* Esconde o texto do h1 */
+  font-size: 0;
+}
+
+.cabecalho form {
+  display: flex;
+
+  width: 30%;
+}
+
+.cabecalho form input {
+  width: 85%;
+
+  padding: 15px 10px;
+
+  border-radius: 5px 0 0 5px;
+}
+
+.cabecalho form button {
+  width: 15%;
+
+  padding: 15px 10px;
+
+  border-radius: 0 5px 5px 0;
+
+  background-color: #0cae98;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+
+  padding: 18px 8%;
+
+  background-color: #111;
+}
+
+.menu ul {
+  /* Menu horizontal */
+  display: flex;
+}
+
+.menu li a {
+  margin-right: 25px;
+
+  color: #9d9d9d;
+}
+
+.menu li a:hover {
+  color: #fff;
+}
+/* SOCIAL ICONS */
+.social-icons a {
+  margin-left: 12px;
+
+  color: #fff;
+}
+
+.btn-facebook:hover {
+  color: #3b5998;
+}
+
+.btn-twitter:hover {
+  color: #54a4d6;
+}
+
+.btn-google:hover {
+  color: #d73d32;
+}
+/* PRINCIPAL */
+.principal {
+  /* float: left; */
+  display: flex;
+
+  width: 100%;
+
+  padding: 20px 8%;
+}
+
+.sobre {
+  /* float: left; */
+
+  width: 70%;
+
+  padding: 0 20px 20px 0;
+}
+
+.sobre h2 {
+  margin-bottom: 15px;
+}
+
+.sobre img {
+  width: 50%;
+
+  /* Como eu quero que o h2 fique em cima da imagem. Não posso usar display flex. Então esse float faz com que o parágrafo fique a esquerda da imagem */
+  float: left;
+
+  margin: 0 15px 15px 0;
+
+  border-radius: 5px;
+}
+
+.sobre p {
+  text-align: justify;
+}
+/* SIDEBAR */
+.onde-estamos {
+  width: 30%;
+  
+  padding: 10px 20px;
+
+  background-color: #f5f5f5;
+
+  border-radius: 5px;
+}
+
+.onde-estamos h2 {
+  margin-bottom: 5px;
+}
+
+.onde-estamos iframe {
+  width: 100%;
+  height: 250px;
+  /* 20px topo e inferior, 0 nas laterais */
+  margin: 20px 0;
+}
+
+.onde-estamos ul li {
+  margin-bottom: 10px;
+  
+  color: #777;
+}
+/* NEWSLETTER */
+.newsletter {
+  width: 100%;
+
+  padding: 50px 8%;
+
+  background-color: #111;
+}
+
+.newsletter h3 {
+  /* 28.8 pixels */
+  font-size: 1.8em;
+
+  color: #fff;
+}
+
+.newsletter p {
+  /* 19.2 pixels */
+  font-size: 1.2em;
+
+  color: #fff;
+}
+
+.newsletter form {
+  display: flex;
+
+  width: 100%;
+
+  margin-top: 10px;
+}
+
+.newsletter form input {
+  width: 40%;
+
+  margin-right: 1%;
+
+  padding: 15px 10px;
+
+  border: 1px solid #fff;
+  border-radius: 5px;
+
+  /* Remove a cor de fundo que o navegador atribui automaticamente e seta o valor inicial que a classe .newsletter definiu */
+  background-color: initial;
+
+  color: #fff;
+}
+
+.newsletter button {
+  width: 18%;
+
+  padding: 15px 10px;
+  
+  border-radius: 7px;
+  
+  cursor: pointer;
+
+  background-color: #fff;
+}
+/* RODAPÉ */
+.rodape {
+  width: 100%;
+
+  padding: 20px 8%;
+
+  background-color: #13c7ae;
+}
+
+.rodape p {
+  color: #fff;
+}
